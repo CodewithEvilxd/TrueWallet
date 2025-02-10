@@ -27,7 +27,7 @@ const Signup = () => {
     }
     try {
       const response = await axios.post(
-        "https://truewallet.onrender.com/api/v1/user/signup",
+        "https://truewallet-9dtd.onrender.com/api/v1/user/signup",
         {
           username: username,
           firstname: firstname,
